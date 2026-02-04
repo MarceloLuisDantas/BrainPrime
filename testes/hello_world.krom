@@ -1,0 +1,491 @@
+-1
+j
+14 
+lb
+$t0 0 $t5 
+sll
+$t0 $t0 8 
+ori
+$t0 $t0 16 
+svr
+$t0 0 $t4 
+inc
+$t4 
+ret
+urn
+li
+$t5 16 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+beq
+$t0 $zero 234 
+inc
+$t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+beq
+$t0 $zero 178 
+inc
+$t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+inc
+$t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+inc
+$t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+inc
+$t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+dec
+$t5 
+dec
+$t5 
+dec
+$t5 
+dec
+$t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+bne
+$t0 $zero 94 
+inc
+$t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+inc
+$t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+inc
+$t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+inc
+$t5 
+inc
+$t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+beq
+$t0 $zero 222 
+dec
+$t5 
+lb
+$t0 0 $t5 
+bne
+$t0 $zero 212 
+dec
+$t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+bne
+$t0 $zero 64 
+inc
+$t5 
+inc
+$t5 
+jal
+2 
+inc
+$t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+jal
+2 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+jal
+2 
+jal
+2 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+jal
+2 
+inc
+$t5 
+inc
+$t5 
+jal
+2 
+dec
+$t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+jal
+2 
+dec
+$t5 
+jal
+2 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+jal
+2 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+jal
+2 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+dec
+$t0 
+sb
+$t0 0 $t5 
+jal
+2 
+inc
+$t5 
+inc
+$t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+jal
+2 
+inc
+$t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+lb
+$t0 0 $t5 
+inc
+$t0 
+sb
+$t0 0 $t5 
+jal
+2 
+li
+$sc 100 
+sys
+call
+j
+484 
