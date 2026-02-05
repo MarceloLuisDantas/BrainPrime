@@ -11,217 +11,115 @@ _main:
 li $t5, 16
 # +
 lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
+addi $t0, $t0, 8
 sb $t0, 0($t5)
 # [
 _1:
 lb $t0, 0($t5)
 beq $t0, $zero, *_1r
 # >
-inc $t5
+addi $t5, $t5, 1
 # +
 lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
+addi $t0, $t0, 4
 sb $t0, 0($t5)
 # [
 _2:
 lb $t0, 0($t5)
 beq $t0, $zero, *_2r
 # >
-inc $t5
+addi $t5, $t5, 1
 # +
 lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
+addi $t0, $t0, 2
 sb $t0, 0($t5)
 # >
-inc $t5
+addi $t5, $t5, 1
 # +
 lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
+addi $t0, $t0, 3
 sb $t0, 0($t5)
 # >
-inc $t5
+addi $t5, $t5, 1
 # +
 lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
+addi $t0, $t0, 3
 sb $t0, 0($t5)
 # >
-inc $t5
+addi $t5, $t5, 1
 # +
 lb $t0, 0($t5)
-inc $t0
+addi $t0, $t0, 1
 sb $t0, 0($t5)
 # <
-dec $t5
-# <
-dec $t5
-# <
-dec $t5
-# <
-dec $t5
+subi $t5, $t5, 4
 # -
 lb $t0, 0($t5)
-dec $t0
+subi $t0, $t0, 1
 sb $t0, 0($t5)
 # ]
 lb $t0, 0($t5)
 bne $t0, $zero, *_2
 _2r:
 # >
-inc $t5
+addi $t5, $t5, 1
 # +
 lb $t0, 0($t5)
-inc $t0
+addi $t0, $t0, 1
 sb $t0, 0($t5)
 # >
-inc $t5
+addi $t5, $t5, 1
 # +
 lb $t0, 0($t5)
-inc $t0
+addi $t0, $t0, 1
 sb $t0, 0($t5)
 # >
-inc $t5
+addi $t5, $t5, 1
 # -
 lb $t0, 0($t5)
-dec $t0
+subi $t0, $t0, 1
 sb $t0, 0($t5)
 # >
-inc $t5
-# >
-inc $t5
+addi $t5, $t5, 2
 # +
 lb $t0, 0($t5)
-inc $t0
+addi $t0, $t0, 1
 sb $t0, 0($t5)
 # [
 _3:
 lb $t0, 0($t5)
 beq $t0, $zero, *_3r
 # <
-dec $t5
+subi $t5, $t5, 1
 # ]
 lb $t0, 0($t5)
 bne $t0, $zero, *_3
 _3r:
 # <
-dec $t5
+subi $t5, $t5, 1
 # -
 lb $t0, 0($t5)
-dec $t0
+subi $t0, $t0, 1
 sb $t0, 0($t5)
 # ]
 lb $t0, 0($t5)
 bne $t0, $zero, *_1
 _1r:
 # >
-inc $t5
-# >
-inc $t5
+addi $t5, $t5, 2
 # .
 jal *_print_char
 # >
-inc $t5
+addi $t5, $t5, 1
 # -
 lb $t0, 0($t5)
-dec $t0
-sb $t0, 0($t5)
-# -
-lb $t0, 0($t5)
-dec $t0
-sb $t0, 0($t5)
-# -
-lb $t0, 0($t5)
-dec $t0
+subi $t0, $t0, 3
 sb $t0, 0($t5)
 # .
 jal *_print_char
 # +
 lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
+addi $t0, $t0, 7
 sb $t0, 0($t5)
 # .
 jal *_print_char
@@ -229,129 +127,57 @@ jal *_print_char
 jal *_print_char
 # +
 lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
+addi $t0, $t0, 3
 sb $t0, 0($t5)
 # .
 jal *_print_char
 # >
-inc $t5
-# >
-inc $t5
+addi $t5, $t5, 2
 # .
 jal *_print_char
 # <
-dec $t5
+subi $t5, $t5, 1
 # -
 lb $t0, 0($t5)
-dec $t0
+subi $t0, $t0, 1
 sb $t0, 0($t5)
 # .
 jal *_print_char
 # <
-dec $t5
+subi $t5, $t5, 1
 # .
 jal *_print_char
 # +
 lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
+addi $t0, $t0, 3
 sb $t0, 0($t5)
 # .
 jal *_print_char
 # -
 lb $t0, 0($t5)
-dec $t0
-sb $t0, 0($t5)
-# -
-lb $t0, 0($t5)
-dec $t0
-sb $t0, 0($t5)
-# -
-lb $t0, 0($t5)
-dec $t0
-sb $t0, 0($t5)
-# -
-lb $t0, 0($t5)
-dec $t0
-sb $t0, 0($t5)
-# -
-lb $t0, 0($t5)
-dec $t0
-sb $t0, 0($t5)
-# -
-lb $t0, 0($t5)
-dec $t0
+subi $t0, $t0, 6
 sb $t0, 0($t5)
 # .
 jal *_print_char
 # -
 lb $t0, 0($t5)
-dec $t0
-sb $t0, 0($t5)
-# -
-lb $t0, 0($t5)
-dec $t0
-sb $t0, 0($t5)
-# -
-lb $t0, 0($t5)
-dec $t0
-sb $t0, 0($t5)
-# -
-lb $t0, 0($t5)
-dec $t0
-sb $t0, 0($t5)
-# -
-lb $t0, 0($t5)
-dec $t0
-sb $t0, 0($t5)
-# -
-lb $t0, 0($t5)
-dec $t0
-sb $t0, 0($t5)
-# -
-lb $t0, 0($t5)
-dec $t0
-sb $t0, 0($t5)
-# -
-lb $t0, 0($t5)
-dec $t0
+subi $t0, $t0, 8
 sb $t0, 0($t5)
 # .
 jal *_print_char
 # >
-inc $t5
-# >
-inc $t5
+addi $t5, $t5, 2
 # +
 lb $t0, 0($t5)
-inc $t0
+addi $t0, $t0, 1
 sb $t0, 0($t5)
 # .
 jal *_print_char
 # >
-inc $t5
+addi $t5, $t5, 1
 # +
 lb $t0, 0($t5)
-inc $t0
-sb $t0, 0($t5)
-# +
-lb $t0, 0($t5)
-inc $t0
+addi $t0, $t0, 2
 sb $t0, 0($t5)
 # .
 jal *_print_char

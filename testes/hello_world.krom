@@ -17,290 +17,142 @@ li
 $t5 16 
 lb
 $t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
+addi
+$t0 $t0 8 
 sb
 $t0 0 $t5 
 lb
 $t0 0 $t5 
 beq
-$t0 $zero 234 
-inc
-$t5 
+$t0 $zero 136 
+addi
+$t5 $t5 1 
 lb
 $t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
+addi
+$t0 $t0 4 
 sb
 $t0 0 $t5 
 lb
 $t0 0 $t5 
 beq
-$t0 $zero 178 
-inc
-$t5 
+$t0 $zero 82 
+addi
+$t5 $t5 1 
 lb
 $t0 0 $t5 
-inc
-$t0 
+addi
+$t0 $t0 2 
 sb
 $t0 0 $t5 
+addi
+$t5 $t5 1 
 lb
 $t0 0 $t5 
-inc
-$t0 
+addi
+$t0 $t0 3 
 sb
 $t0 0 $t5 
-inc
-$t5 
+addi
+$t5 $t5 1 
 lb
 $t0 0 $t5 
-inc
-$t0 
+addi
+$t0 $t0 3 
 sb
 $t0 0 $t5 
+addi
+$t5 $t5 1 
 lb
 $t0 0 $t5 
-inc
-$t0 
+addi
+$t0 $t0 1 
 sb
 $t0 0 $t5 
+subi
+$t5 $t5 4 
 lb
 $t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-inc
-$t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-inc
-$t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-dec
-$t5 
-dec
-$t5 
-dec
-$t5 
-dec
-$t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
+subi
+$t0 $t0 1 
 sb
 $t0 0 $t5 
 lb
 $t0 0 $t5 
 bne
-$t0 $zero 94 
-inc
-$t5 
+$t0 $zero 34 
+addi
+$t5 $t5 1 
 lb
 $t0 0 $t5 
-inc
-$t0 
+addi
+$t0 $t0 1 
 sb
 $t0 0 $t5 
-inc
-$t5 
+addi
+$t5 $t5 1 
 lb
 $t0 0 $t5 
-inc
-$t0 
+addi
+$t0 $t0 1 
 sb
 $t0 0 $t5 
-inc
-$t5 
+addi
+$t5 $t5 1 
 lb
 $t0 0 $t5 
-dec
-$t0 
+subi
+$t0 $t0 1 
 sb
 $t0 0 $t5 
-inc
-$t5 
-inc
-$t5 
+addi
+$t5 $t5 2 
 lb
 $t0 0 $t5 
-inc
-$t0 
+addi
+$t0 $t0 1 
 sb
 $t0 0 $t5 
 lb
 $t0 0 $t5 
 beq
-$t0 $zero 222 
-dec
-$t5 
+$t0 $zero 124 
+subi
+$t5 $t5 1 
 lb
 $t0 0 $t5 
 bne
-$t0 $zero 212 
-dec
-$t5 
+$t0 $zero 114 
+subi
+$t5 $t5 1 
 lb
 $t0 0 $t5 
-dec
-$t0 
+subi
+$t0 $t0 1 
 sb
 $t0 0 $t5 
 lb
 $t0 0 $t5 
 bne
-$t0 $zero 64 
-inc
-$t5 
-inc
-$t5 
+$t0 $zero 22 
+addi
+$t5 $t5 2 
 jal
 2 
-inc
-$t5 
+addi
+$t5 $t5 1 
 lb
 $t0 0 $t5 
-dec
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
+subi
+$t0 $t0 3 
 sb
 $t0 0 $t5 
 jal
 2 
 lb
 $t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
+addi
+$t0 $t0 7 
 sb
 $t0 0 $t5 
 jal
@@ -309,176 +161,70 @@ jal
 2 
 lb
 $t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
+addi
+$t0 $t0 3 
 sb
 $t0 0 $t5 
 jal
 2 
-inc
-$t5 
-inc
-$t5 
+addi
+$t5 $t5 2 
 jal
 2 
-dec
-$t5 
+subi
+$t5 $t5 1 
 lb
 $t0 0 $t5 
-dec
-$t0 
+subi
+$t0 $t0 1 
 sb
 $t0 0 $t5 
 jal
 2 
-dec
-$t5 
+subi
+$t5 $t5 1 
 jal
 2 
 lb
 $t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
+addi
+$t0 $t0 3 
 sb
 $t0 0 $t5 
 jal
 2 
 lb
 $t0 0 $t5 
-dec
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
+subi
+$t0 $t0 6 
 sb
 $t0 0 $t5 
 jal
 2 
 lb
 $t0 0 $t5 
-dec
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-dec
-$t0 
+subi
+$t0 $t0 8 
 sb
 $t0 0 $t5 
 jal
 2 
-inc
-$t5 
-inc
-$t5 
+addi
+$t5 $t5 2 
 lb
 $t0 0 $t5 
-inc
-$t0 
+addi
+$t0 $t0 1 
 sb
 $t0 0 $t5 
 jal
 2 
-inc
-$t5 
+addi
+$t5 $t5 1 
 lb
 $t0 0 $t5 
-inc
-$t0 
-sb
-$t0 0 $t5 
-lb
-$t0 0 $t5 
-inc
-$t0 
+addi
+$t0 $t0 2 
 sb
 $t0 0 $t5 
 jal
@@ -488,4 +234,4 @@ $sc 100
 sys
 call
 j
-484 
+230 
